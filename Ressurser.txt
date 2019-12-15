@@ -1,0 +1,4 @@
+Lastet ned fra: https://sourceforge.net/projects/devkitadv/files/
+Intro: http://www.loirak.com/gameboy/gbatutor.php
+http://www.loirak.com/gameboy/tank.php
+https://www.coranac.com/tonc/text/bitmaps.htm#sec-page

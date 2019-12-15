@@ -1,0 +1,3 @@
+gcc -o Main.elf Main.cpp -lm
+objcopy -O binary Main.elf Main.gba
+pause

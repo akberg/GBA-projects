@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9bb322c0-23f3-463e-a3fd-b7267cdb0b4c}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{a24e7595-2409-4517-8fe8-c44136d24529}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{5e6884f3-3ca7-49f7-9224-57cfae74f0cf}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gfx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gba.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="keypad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\logo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\objects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="screenmode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\star.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\tank.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="make.bat">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tank.mak">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
