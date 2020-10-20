@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "gfx.h": "c",
+        "cstdlib": "cpp"
+    }
+}

@@ -15,13 +15,10 @@
 #define KEY_R 256
 #define KEY_L 512
 
-#define KEY_PRESSED(key)  (~(REG_P1) & key)
-
 // the keyboard registor
 // volatile tells c compiler that the variable is changed otuside of our code
 volatile u32* KEYS = (volatile u32*)0x04000130;
 //int* KEYS = (int*)0x04000130;
-
 
 #endif
 

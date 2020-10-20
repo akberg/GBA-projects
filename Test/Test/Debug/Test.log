@@ -1,6 +1,0 @@
-﻿  gfx.c
-  Main.c
-  mode3.c
-d:\users\andreas\documents\dev\c\gba\test\test\mode3.c(39): warning C4244: 'initializing': conversion from 'double' to 's16', possible loss of data
-  Generating Code...
-  Test.vcxproj -> D:\Users\Andreas\Documents\Dev\C\GBA\Test\Debug\Test.exe
